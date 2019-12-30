@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1140px;
+	margin: 10% auto;
+	
+}
+body{
+	background-image:url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*left part*/
+.left-part{
+	width: 50%;
+	float: left;
+	color: white;
+}
+
+.left-part h2{
+text-transform: uppercase;
+font-size: 20px;
+    letter-spacing: .5px;
+}
+.left-part span{
+	color: green;
+}
+.left-part h3{
+text-transform: uppercase;
+font-size: 20px;
+    letter-spacing: .5px;
+}
+.left-part p{
+margin: 10px 0px;
+font-size: 16px;
+}
+.left-part ul li{
+list-style: none;
+margin: 8px 0px;
+}
+.btn{
+	text-align: center;
+	background-color: lightblue;
+	border-radius: 8px 11px;
+	padding: 7px 10px;
+	border: none;
+	margin: 10px 0px;
+
+}
+/* right part*/
+.right-part{
+	width: 48%;
+	float: left;
+	background-color:  #00acee;
+	text-align: center;
+	padding: 20px 0px;
+	border-radius: 8px 8px;
+}
+.right-part h1{
+text-transform: uppercase;
+    color: white;
+    margin: 8px 0px;	
+}
+.right-part h2{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 16px;
+    text-transform: capitalize;	
+}
+.form-box{
+    width: 65%;
+    margin: 4px 0px;
+    padding: 5px;
+    text-transform: uppercase;
+    color: black;
+}
+.form-btn{
+border: none;
+    padding: 12px 5px;
+    text-transform: uppercase;
+    color: white;
+    background: blue;
+    width: 68%;
+    margin: 10px 0px;
+    transition: .4s ease;
+    
+}
+
+/* finish*/
